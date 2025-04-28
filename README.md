@@ -9,6 +9,11 @@ It uses audio analysis with Librosa, Torchaudio, Wav2Vec2 (speech detection), an
 
 ---
 
+# Backstory
+grandMA2 is a lighting console that is used to operate and control lighting during concerts, shows, theatrical performances, and much more. Sometimes there is not much time to program out cues for a song and this project seeks to shorten the time needed to program lights to a song. So does this project program lights? Not yet... What it does is automatically create cue placholders from an audio file and create a LUA script to be then transferred over to a grandMA console. The idea behind this project was to create an agent that can do what a human would do when building out show cues. This is basically a python program that does what [Cuepoints](https://cuepoints.com) and a lighting programmer would do, but autonomously.
+
+---
+
 # How It Works
 
 1. Select a song (`.wav`, `.mp3`, etc.) using a file dialog.
